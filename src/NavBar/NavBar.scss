@@ -1,0 +1,22 @@
+.nav-bar {
+  ul {
+    font-size: 1.25rem;
+
+    li {
+      display: inline-block;
+      margin-right: 5vw;
+      &:last-child {
+        margin-right: 0;
+      }
+
+      a {
+        text-decoration: none;
+        color: #fff;
+      }
+    }
+  }
+
+  .selected {
+    color: #000;
+  }
+}

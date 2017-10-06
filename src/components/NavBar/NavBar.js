@@ -6,26 +6,17 @@ const NavBar = () => (
   <nav className='nav-bar'>
     <ul>
       <li>
-        <NavLink
-          to='/'
-          activeClassName='selected'
-        >
+        <NavLink exact to='/' activeClassName='selected'>
           Home
         </NavLink>
       </li>
       <li>
-        <NavLink
-          to='/about'
-          activeClassName='selected'
-        >
+        <NavLink to='/about' activeClassName='selected'>
           About
         </NavLink>
       </li>
       <li>
-        <NavLink
-          to='/contact'
-          activeClassName='selected'
-        >
+        <NavLink to='/contact' activeClassName='selected'>
           Contact
         </NavLink>
       </li>

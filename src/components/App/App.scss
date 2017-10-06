@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans|Raleway:500,800');
+@import 'media/styles/_colors';
+
+$font-stack: 'Open Sans', sans-serif;
+
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  font-family: $font-stack;
+  font-size: 1.15rem;
+
+  h1 {
+    font-size: 1.75rem;
+    line-height: 1.5;
+    color: $charcoal;
+  }
+
+  h3 {
+    margin: 7vh 0 3vh 0;
+    font-size: 1.35rem;
+  }
+
+  p {
+    line-height: 1.5;
+  }
+
+  ul {
+    line-height: 1.75rem;
+  }
+}

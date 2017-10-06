@@ -1,0 +1,16 @@
+$font-stack-link: Lato, sans-serif;
+
+.not-found {
+  margin: 0 auto;
+  text-align: center;
+
+  .not-found-video {
+    width: 48vw;
+    height: 27vw;
+  }
+
+  a {
+    font-size: 1.625rem;
+    font-family: $font-stack-link;
+  }
+}

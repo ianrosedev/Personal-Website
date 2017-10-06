@@ -2,8 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router } from 'react-router-dom';
 import registerServiceWorker from './registerServiceWorker';
-import App from './App/App';
-import 'normalize.css';
+import App from './components/App/App';;
 
 ReactDOM.render(
   <Router>

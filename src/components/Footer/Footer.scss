@@ -1,0 +1,13 @@
+@import 'media/styles/_colors';
+
+$font-stack: Lato, sans-serif;
+
+.footer {
+  display: flex;
+  align-items: center;
+  height: 6vh;
+  padding-left: 12vw;
+  background-color: $primary;
+  font-family: $font-stack;
+  color: $heading;
+}

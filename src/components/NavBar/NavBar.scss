@@ -1,22 +1,28 @@
+@import 'media/styles/colors';
+
+$font-stack: Lato, sans-serif;
+
 .nav-bar {
+  font-family: $font-stack;
+
   ul {
     font-size: 1.25rem;
 
     li {
       display: inline-block;
-      margin-right: 5vw;
+      margin-right: 4vw;
       &:last-child {
         margin-right: 0;
       }
 
       a {
         text-decoration: none;
-        color: #fff;
+        color: $black;
       }
     }
   }
 
   .selected {
-    color: #000;
+    color: $white;
   }
 }

@@ -1,0 +1,32 @@
+@import 'media/styles/_colors';
+
+.image-with-caption {
+  width: 23vw;
+  height: auto;
+  border: 1px solid $figure;
+  border-radius: 5px;
+  background-color: $figure;
+
+  figure {
+    margin: 10px 0;
+
+    img {
+      width: 23vw;
+      height: auto;
+    }
+
+    p {
+      margin: 4px 0;
+      font-size: 1.25rem;
+    }
+
+    figcaption {
+      padding-top: 4px;
+    }
+
+    p, figcaption > a {
+      color: $white;
+      margin-left: 15px;
+    }
+  }
+}

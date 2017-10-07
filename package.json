@@ -5,6 +5,7 @@
   "author": "Ian Rose",
   "license": "ISC",
   "dependencies": {
+    "font-awesome": "^4.7.0",
     "node-sass-chokidar": "0.0.3",
     "normalize.css": "^7.0.0",
     "npm-run-all": "^4.1.1",

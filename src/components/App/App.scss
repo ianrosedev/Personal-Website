@@ -29,4 +29,15 @@ $font-stack: 'Open Sans', sans-serif;
   ul {
     line-height: 1.75rem;
   }
+
+  a {
+    color: $black;
+    &:hover {
+      font-weight: bold;
+    }
+  }
+
+  i {
+    margin-right: 5px;
+  }
 }

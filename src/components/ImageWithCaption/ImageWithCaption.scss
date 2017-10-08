@@ -3,9 +3,9 @@
 .image-with-caption {
   width: 23vw;
   height: auto;
-  border: 1px solid $figure;
+  background-color: $secondary;
+  border: 1px solid $secondary;
   border-radius: 5px;
-  background-color: $figure;
 
   figure {
     margin: 10px 0;

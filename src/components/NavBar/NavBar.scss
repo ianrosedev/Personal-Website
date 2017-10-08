@@ -1,4 +1,5 @@
 @import 'media/styles/colors';
+@import 'media/styles/_sizes';
 
 $font-stack: Lato, sans-serif;
 
@@ -24,5 +25,58 @@ $font-stack: Lato, sans-serif;
 
   .selected {
     color: $white;
+  }
+
+  .nav-narrow {
+    display: none;
+
+    .nav-narrow-links {
+      display: none;
+
+      li > a {
+        display: block;
+      }
+    }
+  }
+}
+
+@include tablet-down {
+  .nav-bar {
+    .nav-wide {
+      display: none;
+    }
+
+    .nav-narrow {
+      display: flex;
+      flex-direction: column;
+
+      i {
+        font-size: 2rem;
+      }
+
+      .nav-narrow-links {
+        position: absolute;
+        top: 11.5vh;
+        left: 0;
+        margin: 0;
+        padding: 0;
+        box-shadow: -10px 3px 10px $charcoal;
+        background-color: $primary-light;
+
+        li {
+          display: block;
+          width: 100vw;
+          padding: 1vh 0;
+          border-top: 1px solid $primary-lighter;
+          &:last-child {
+            border-bottom: 1px solid $primary-lighter;
+          }
+
+          a {
+            text-align: center;
+          }
+        }
+      }
+    }
   }
 }

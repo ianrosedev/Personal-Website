@@ -6,7 +6,8 @@ import './Projects.css';
 const Projects = () => (
   <div className='projects'>
     <ContentCentered>
-      <h1>Check out some of my projects.</h1>
+      <h1>My projects.</h1>
+      <p>Ordered newest to oldest. Check out the GitHub repos to see the code.</p>
       <div className='projects-images'>
         <ImageWithCaption
           image={require('../../media/images/super-nintendo-game-info.jpg')}

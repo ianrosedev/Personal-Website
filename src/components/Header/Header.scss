@@ -1,4 +1,5 @@
 @import 'media/styles/_colors';
+@import 'media/styles/_sizes';
 
 $font-stack: Raleway, sans-serif;
 
@@ -26,6 +27,20 @@ $font-stack: Raleway, sans-serif;
     .sub-heading {
       margin: 0;
       color: $sub-heading;
+    }
+  }
+}
+
+@include tablet-down {
+  .header {
+    .heading {
+      h1 {
+        font-size: 2.5rem;
+      }
+    }
+
+    .sub-heading {
+      font-size: 1rem;
     }
   }
 }

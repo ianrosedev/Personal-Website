@@ -1,4 +1,5 @@
 @import 'media/styles/_colors';
+@import 'media/styles/_sizes';
 
 .image-with-caption {
   width: 23vw;
@@ -27,6 +28,18 @@
     p, figcaption > a {
       color: $white;
       margin-left: 15px;
+    }
+  }
+}
+
+@include tablet-down {
+  .image-with-caption {
+    width: 100%;
+    height: auto;
+    margin-bottom: 4vh;
+
+    figure > img {
+      width: 100%;
     }
   }
 }

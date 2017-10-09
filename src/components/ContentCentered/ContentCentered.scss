@@ -1,3 +1,11 @@
+@import 'media/styles/_sizes';
+
 .content-centered {
-  margin: 4vw 12vw;
+  margin: 8vh 12vw;
+}
+
+@include tablet-down {
+  .content-centered {
+    margin: 4vh 6vw;
+  }
 }

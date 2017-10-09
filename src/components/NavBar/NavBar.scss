@@ -56,12 +56,12 @@ $font-stack: Lato, sans-serif;
 
       .nav-narrow-links {
         position: absolute;
-        top: 11.5vh;
+        top: 85px;
         left: 0;
         margin: 0;
         padding: 0;
-        box-shadow: -10px 3px 10px $charcoal;
         background-color: $primary-light;
+        box-shadow: -10px 3px 5px $charcoal;
 
         li {
           display: block;

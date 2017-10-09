@@ -7,9 +7,8 @@ $font-stack: Raleway, sans-serif;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 12vh;
-  min-height: 80px;
-  margin-top: -0.5vh;
+  height: 90px;
+  margin-top: -5px;
   padding: 0 12vw;
   background-color: $primary;
 
@@ -33,6 +32,8 @@ $font-stack: Raleway, sans-serif;
 
 @include tablet-down {
   .header {
+    padding: 0 6vw;
+
     .heading {
       h1 {
         font-size: 2.5rem;

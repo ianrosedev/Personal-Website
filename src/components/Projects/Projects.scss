@@ -1,7 +1,17 @@
+@import 'media/styles/_sizes';
+
 .projects {
   .projects-images {
     display: flex;
     justify-content: space-between;
     margin-top: 8vh;
+  }
+}
+
+@include tablet-down {
+  .projects {
+    .projects-images {
+      flex-direction: column;
+    }
   }
 }

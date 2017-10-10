@@ -1,5 +1,5 @@
 # Personal Website
-This is my new personal website coming soon to [ianrosedev.com](http://ianrosedev.com). Feel free to use it as a starting place for your own!
+This is my personal website – [ianrosedev.com](https://www.ianrosedev.com). Feel free to use it as a starting place for your own!
 
 ## License
 ### Internet Systems Consortium license

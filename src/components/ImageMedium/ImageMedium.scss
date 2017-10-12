@@ -16,9 +16,11 @@
 }
 
 @include phone-only {
-  .image-medium-left, .image-medium-right {
+  .image-medium-left, .image-medium-right, .image-medium-center {
     float: none;
     display: block;
+    max-width: 88vw;
+    height: auto;
     margin: 0 auto;
   }
 }

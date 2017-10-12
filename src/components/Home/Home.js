@@ -1,10 +1,15 @@
 import React from 'react';
 import ContentCentered from '../ContentCentered/ContentCentered';
+import './Home.css';
 
 const Home = () => (
   <div className='home'>
     <ContentCentered>
-      <h1>Hi! My name is Ian.<br />I’m a Web Application Developer living in Durham, North Carolina.</h1>
+      <h1>Hi! My name is Ian.<br />
+        <span className='home-intro-about'>
+          I’m a Web Application Developer living in Durham, North Carolina.
+        </span>
+      </h1>
       <h3>Some of my current skills include:</h3>
       <ul>
         <li>JavaScript (Latest+)</li>

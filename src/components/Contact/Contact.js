@@ -4,7 +4,7 @@ import ContentCentered from '../ContentCentered/ContentCentered';
 const About = () => (
   <div className='about'>
     <ContentCentered>
-      <h1>Get in touch.</h1>
+      <h1>Get in Touch</h1>
       <p>Email me or check out what projects I’m currently working on.</p>
       <p>
         <i className='fa fa-envelope-o fa-lg' aria-hidden='true'></i>

@@ -5,7 +5,7 @@ import ImageMedium from '../ImageMedium/ImageMedium';
 const About = () => (
   <div className='about'>
     <ContentCentered>
-      <h1>A bit about me.</h1>
+      <h1>A Little About Me</h1>
       <ImageMedium
         image={require('../../media/images/ian-with-bricks.jpg')}
         alt='Ian headshot'

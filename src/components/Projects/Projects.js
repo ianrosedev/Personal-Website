@@ -6,7 +6,7 @@ import './Projects.css';
 const Projects = () => (
   <div className='projects'>
     <ContentCentered>
-      <h1>My projects.</h1>
+      <h1>My Latest Projects</h1>
       <p>Ordered newest to oldest. Check out the GitHub repos to see the code.</p>
       <div className='projects-images'>
         <ImageWithCaption

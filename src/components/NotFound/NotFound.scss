@@ -1,7 +1,10 @@
+@import 'media/styles/_sizes';
+
 $font-stack-link: Lato, sans-serif;
 
 .not-found {
   margin: 0 auto;
+  padding: 0 4vw;
   text-align: center;
 
   .not-found-video {
@@ -12,5 +15,14 @@ $font-stack-link: Lato, sans-serif;
   a {
     font-size: 1.625rem;
     font-family: $font-stack-link;
+  }
+}
+
+@include phone-only {
+  .not-found {
+    .not-found-video {
+      width: 92vw;
+      height: 54vw;
+    }
   }
 }

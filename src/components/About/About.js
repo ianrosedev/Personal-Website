@@ -7,7 +7,7 @@ const About = () => (
     <ContentCentered>
       <h1>A Little About Me</h1>
       <ImageMedium
-        image={require('../../media/images/ian-with-bricks.jpg')}
+        image={require('../../media/images/ian-headshot.jpg')}
         alt='Ian headshot'
         float='left'
       />

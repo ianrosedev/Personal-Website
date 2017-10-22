@@ -1,9 +1,14 @@
 import React from 'react';
 import ContentCentered from '../ContentCentered/ContentCentered';
+import ImageJumbo from '../ImageJumbo/ImageJumbo';
 import './Home.css';
 
 const Home = () => (
   <div className='home'>
+    <ImageJumbo
+      image={require('../../media/images/ian-on-bench.jpg')}
+      alt='Ian on bench'
+    />
     <ContentCentered>
       <h1>Hi! My name is Ian.<br />
         <span className='home-intro-about'>

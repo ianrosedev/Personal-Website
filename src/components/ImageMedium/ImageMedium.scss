@@ -1,5 +1,10 @@
 @import 'media/styles/_sizes';
 
+.image-medium-left, .image-medium-right, .image-medium-center {
+  width: 22vw;
+  min-width: 300px;
+}
+
 .image-medium-left {
   float: left;
   margin: 7px 2vw 1vh 0;

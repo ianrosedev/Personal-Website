@@ -1,9 +1,13 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import ContentCentered from '../ContentCentered/ContentCentered';
 import ImageMedium from '../ImageMedium/ImageMedium';
 
 const About = () => (
   <div className='about'>
+    <Helmet defer={false}>
+      <title>Ian Rose &ndash; About</title>
+    </Helmet>
     <ContentCentered>
       <h1>A Little About Me</h1>
       <ImageMedium

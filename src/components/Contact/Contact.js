@@ -1,9 +1,13 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import ContentCentered from '../ContentCentered/ContentCentered';
 import ImageJumbo from '../ImageJumbo/ImageJumbo';
 
-const About = () => (
-  <div className='about'>
+const Contact = () => (
+  <div className='contact'>
+    <Helmet defer={false}>
+      <title>Ian Rose &ndash; Contact</title>
+    </Helmet>
     <ContentCentered>
       <h1>Get in Touch</h1>
       <ImageJumbo
@@ -23,4 +27,4 @@ const About = () => (
   </div>
 );
 
-export default About;
+export default Contact;

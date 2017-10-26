@@ -23,6 +23,10 @@ const Contact = () => (
         <i className='fa fa-github fa-lg' aria-hidden='true'></i>
         <a href='https://github.com/ianrosedev'>github.com/ianrosedev</a>
       </p>
+      <p>
+        <i className='fa fa-linkedin-square fa-lg' aria-hidden='true'></i>
+        <a href='https://www.linkedin.com/in/ianrosedev/'>linkedin.com/in/ianrosedev</a>
+      </p>
     </ContentCentered>
   </div>
 );

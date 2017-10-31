@@ -4,7 +4,8 @@
   .projects-images {
     display: flex;
     justify-content: space-between;
-    margin-top: 8vh;
+    margin-top: 6vh;
+    padding-bottom: 5vh;
   }
 }
 
@@ -12,6 +13,7 @@
   .projects {
     .projects-images {
       flex-direction: column;
+      padding-bottom: 0;
     }
   }
 }

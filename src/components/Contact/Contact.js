@@ -2,6 +2,7 @@ import React from 'react';
 import { Helmet } from 'react-helmet';
 import ContentCentered from '../ContentCentered/ContentCentered';
 import ImageJumbo from '../ImageJumbo/ImageJumbo';
+import './Contact.css';
 
 const Contact = () => (
   <div className='contact'>

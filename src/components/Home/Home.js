@@ -11,6 +11,7 @@ const Home = () => (
     </Helmet>
     <ImageJumbo
       image={require('../../media/images/ian-on-bench.jpg')}
+      imageCropped={require('../../media/images/ian-on-bench-cropped.jpg')}
       alt='Ian on bench'
     />
     <ContentCentered>

@@ -14,6 +14,12 @@ const Projects = () => (
       <p>Ordered newest to oldest. Check out the GitHub repos to see the code.</p>
       <div className='projects-images'>
         <ImageWithCaption
+          image={require('../../media/images/puphub.jpg')}
+          alt='PupHub'
+          topCaption='PupHub'
+          bottomCaption='https://github.com/ianrosedev/PupHub'
+        />
+        <ImageWithCaption
           image={require('../../media/images/super-nintendo-game-info.jpg')}
           alt='Super Nintendo Game Info'
           topCaption='Super Nintendo Game Info'
@@ -24,12 +30,6 @@ const Projects = () => (
           alt='Todo List'
           topCaption='Todo List'
           bottomCaption='https://github.com/ianrosedev/Todo-App'
-        />
-        <ImageWithCaption
-          image={require('../../media/images/simple-simon.png')}
-          alt='Simple Simon'
-          topCaption='Simple Simon'
-          bottomCaption='https://github.com/ianrosedev/Simple-Simon'
         />
       </div>
     </ContentCentered>

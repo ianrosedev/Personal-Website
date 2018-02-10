@@ -1,7 +1,7 @@
 @import 'media/styles/_colors';
 @import 'media/styles/_sizes';
 
-.image-with-caption {
+.image-link-with-caption {
   width: 23vw;
   height: auto;
   background-color: $secondary;
@@ -10,6 +10,7 @@
 
   figure {
     margin: 8px 0;
+    cursor: pointer;
 
     img {
       width: 23vw;
@@ -33,12 +34,12 @@
 }
 
 @include tablet-down {
-  .image-with-caption {
+  .image-link-with-caption {
     width: 100%;
     height: auto;
     margin-bottom: 4vh;
 
-    figure > img {
+    figure img {
       width: 100%;
     }
   }

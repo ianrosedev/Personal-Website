@@ -1,7 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import ContentCentered from '../ContentCentered/ContentCentered';
-import ImageWithCaption from '../ImageWithCaption/ImageWithCaption';
+import ImageLinkWithCaption from '../ImageLinkWithCaption/ImageLinkWithCaption';
 import './Projects.css';
 
 const Projects = () => (
@@ -13,19 +13,21 @@ const Projects = () => (
       <h1>My Latest Projects</h1>
       <p>Ordered newest to oldest. Check out the GitHub repos to see the code.</p>
       <div className='projects-images'>
-        <ImageWithCaption
+        <ImageLinkWithCaption
           image={require('../../media/images/puphub.jpg')}
+          link='https://puphubapp.herokuapp.com'
           alt='PupHub'
           topCaption='PupHub'
           bottomCaption='https://github.com/ianrosedev/PupHub'
         />
-        <ImageWithCaption
+        <ImageLinkWithCaption
           image={require('../../media/images/super-nintendo-game-info.jpg')}
+          link='https://supernintendogameinfo.herokuapp.com'
           alt='Super Nintendo Game Info'
           topCaption='Super Nintendo Game Info'
           bottomCaption='https://github.com/ianrosedev/Super-Nintendo-Game-Info'
         />
-        <ImageWithCaption
+        <ImageLinkWithCaption
           image={require('../../media/images/todo-list.jpg')}
           alt='Todo List'
           topCaption='Todo List'

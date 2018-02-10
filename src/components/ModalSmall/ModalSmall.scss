@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import 'media/styles/_colors';
+@import 'media/styles/_sizes';
+
+.modal-small {
+  position: fixed;
+  top: 30%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+.modal-small-modal {
+  margin: 0 auto;
+  width: 600px;
+  height: 200px;
+  background-color: $white;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px 3px rgba(0, 0, 0, 0.6),
+              0 6px 20px 3px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.modal-small-topbar {
+  width: 100%;
+  height: 50px;
+  background-color: $warning;
+  border-radius: 5px 5px 0 0;
+
+  i {
+    float: right;
+    padding: 12px;
+    font-size: 26px;
+    color: $white;
+    cursor: pointer;
+  }
+}
+
+.modal-small-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100% - 74px);
+  padding: 10px;
+  font-size: 1.25rem;
+}
+
+@include tablet-down {
+  .modal-small-modal {
+    width: 92%;
+  }
+
+  .modal-small-text {
+    padding: 20px;
+  }
+}

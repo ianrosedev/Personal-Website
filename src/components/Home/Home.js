@@ -28,6 +28,8 @@ const Home = () => (
         <li>Sass</li>
         <li>Node</li>
         <li>Express</li>
+        <li>Ruby</li>
+        <li>Rails</li>
       </ul>
       <h3>I look forward to working with you to make some great websites!</h3>
     </ContentCentered>

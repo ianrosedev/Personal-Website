@@ -10,7 +10,6 @@
 
   figure {
     margin: 8px 0;
-    cursor: pointer;
 
     img {
       width: 23vw;
@@ -29,6 +28,10 @@
     p, figcaption > a {
       color: $white;
       margin-left: 15px;
+    }
+
+    .image-link-with-caption-image {
+      cursor: pointer;
     }
   }
 }

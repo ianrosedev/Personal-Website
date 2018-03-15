@@ -13,16 +13,18 @@ const propTypes = {
   bottomCaption: PropTypes.string.isRequired
 };
 
-const ImageWithCaption = ({ image, link, alt, topCaption, bottomCaption }) => (
+const ImageLinkWithCaption = ({ image, link, alt, topCaption, bottomCaption }) => (
   <div className='image-link-with-caption'>
     <figure>
       <p>{topCaption}</p>
       {(link) ? (
         <a href={link}>
-          <ImageMedium
-            image={image}
-            alt={alt}
-          />
+          <div className='image-link-with-caption-image'>
+            <ImageMedium
+              image={image}
+              alt={alt}
+            />
+          </div>
         </a>
       ) : (
         <PortalWithState
@@ -31,12 +33,16 @@ const ImageWithCaption = ({ image, link, alt, topCaption, bottomCaption }) => (
           closeOnEsc
         >
           {({ portal, openPortal, closePortal }) => [
-            <ImageMedium
+            <div
+              className='image-link-with-caption-image'
               key={alt}
-              image={image}
-              alt={alt}
-              onClick={openPortal}
-            />,
+            >
+              <ImageMedium
+                image={image}
+                alt={alt}
+                onClick={openPortal}
+              />
+            </div>,
             portal(
               <ModalSmall
                 text="Sorry, there currently isn't an example for this app."
@@ -56,6 +62,6 @@ const ImageWithCaption = ({ image, link, alt, topCaption, bottomCaption }) => (
   </div>
 );
 
-ImageWithCaption.propTypes = propTypes;
+ImageLinkWithCaption.propTypes = propTypes;
 
-export default ImageWithCaption;
+export default ImageLinkWithCaption;
